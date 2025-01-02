@@ -1,3 +1,3 @@
-ignore the ROKU DEVELOPERS splash screen, i'll change those soon.
+ignore the ROKU DEVELOPERS splash screens inside this directory, i'll change them soon
 
 from mpax235.
