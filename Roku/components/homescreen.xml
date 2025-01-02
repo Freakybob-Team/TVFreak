@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="HomeScreen" extends="Scene"> 
+	<interface>
+  </interface>
+  <children>
+    <Rectangle
+      id="topBar"
+      width="1920" 
+      height="100"
+      color="0x8B8000FF" />
+
+    <Rectangle
+      id="bottomBar"
+      width="1920" 
+      height="1149"
+      color="0x4B0030FF"
+      translation="[0,100]" />
+    
+    <Poster
+      id="logo"
+      uri="pkg:/images/logo.png"
+      width="99"
+      height="75"
+      translation="[10.56, 10.56]" />
+
+    <Label
+      id="logoText"
+      text="TVFreak"
+      translation="[120, 40]"
+      color="0x000000FF"
+      horizAlign="left"
+      vertAlign="top"
+      width="200"
+      height="75" >
+    </Label>
+  </children>
+</component>
