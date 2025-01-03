@@ -1,0 +1,60 @@
+{
+    "providerName": "TVFreak+ Feed",
+    "language": "en-US",
+    "Clips": [
+        {
+            "longDescription": "The first cutscene from MurderBob.",
+            "thumbnail": "https://freakyflix.freakybob.site/thumbnails/murderbob/cutscene1.png",
+            "releaseDate": "2024-11-10",
+            "genres": [
+                "cutscene"
+            ],
+            "tags": [
+                "cutscene"
+            ],
+            "id": "cutscene1murderbob",
+            "shortDescription": "The first cutscene from MurderBob.",
+            "title": "Cutscene 1 from MurderBob",
+            "content": {
+                "duration": 32,
+                "videos": [
+                    {
+                        "videoType": "MP4",
+                        "url": "https://freakyflix.freakybob.site/movies/murderbob/cutscenes-edited/cutscene1.mp4",
+                        "quality": "HD"
+                    }
+                ],
+                "language": "en-us",
+                "dateAdded": "2024-01-03T10:23:10Z"
+            }
+        }
+    ],
+    "Videos": [
+        {
+            "longDescription": "This is a tour of our website freakybob.site!",
+            "thumbnail": "https://videos.freakybob.site/thumbnails/laptop.jpg",
+            "releaseDate": "2024-10-11",
+            "genres": [
+                "tours"
+            ],
+            "tags": [
+                "tours"
+            ],
+            "id": "freakytube4",
+            "shortDescription": "This is a tour of our website freakybob.site!",
+            "title": "Freakybob.site Laptop Tour",
+            "content": {
+                "duration": 111,
+                "videos": [
+                    {
+                        "videoType": "MP4",
+                        "url": "https://videos.freakybob.site/videos/laptop.mp4",
+                        "quality": "HD"
+                    }
+                ],
+                "language": "en-us",
+                "dateAdded": "2024-01-03T10:31:00Z"
+            }
+        }
+    ]
+}
