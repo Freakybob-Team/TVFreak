@@ -10,7 +10,9 @@
                 "cutscene"
             ],
             "tags": [
-                "cutscene"
+                "cutscene",
+                "freakybob",
+                "projectm"
             ],
             "id": "cutscene1murderbob",
             "shortDescription": "The first cutscene from MurderBob.",
@@ -31,6 +33,35 @@
     ],
     "Videos": [
         {
+            "longDescription": "Want to play Freakybob Clicker? Go to https://scratch.mit.edu/projects/1059751585/!",
+            "thumbnail": "https://videos.freakybob.site/thumbnails/clicker.jpg",
+            "releaseDate": "2024-10-11",
+            "genres": [
+                "gameplays"
+            ],
+            "tags": [
+                "gameplays",
+                "freakybob",
+                "scratch",
+                "freakybob clicker"
+            ],
+            "id": "freakytube3",
+            "shortDescription": "Want to play Freakybob Clicker? Go to https://scratch.mit.edu/projects/1059751585/!",
+            "title": "Freakybob Clicker Gameplay - 1.7",
+            "content": {
+                "duration": 32,
+                "videos": [
+                    {
+                        "videoType": "MP4",
+                        "url": "https://videos.freakybob.site/videos/clicker.mp4",
+                        "quality": "HD"
+                    }
+                ],
+                "language": "en-us",
+                "dateAdded": "2024-01-03T11:16:00Z"
+            }
+        },
+        {
             "longDescription": "This is a tour of our website freakybob.site!",
             "thumbnail": "https://videos.freakybob.site/thumbnails/laptop.jpg",
             "releaseDate": "2024-10-11",
@@ -38,7 +69,8 @@
                 "tours"
             ],
             "tags": [
-                "tours"
+                "tours",
+                "freakybob"
             ],
             "id": "freakytube4",
             "shortDescription": "This is a tour of our website freakybob.site!",
