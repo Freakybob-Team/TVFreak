@@ -4,7 +4,7 @@ sub InitScreenStack()
 end sub
 
 sub ShowScreen(node as Object)
-    prev = m.screenStack.Peek()
+    prev = m.screenStack.Peek() 
     if prev <> invalid
         prev.visible = false
     end if
@@ -18,8 +18,8 @@ sub CloseScreen(node as Object)
     if node = invalid OR (m.screenStack.Peek() <> invalid AND m.screenStack.Peek().IsSameNode(node))
         last = m.screenStack.Pop()
         last.visible = false
-        m.top.RemoveChild(node)
-        
+        m.top.RemoveChild(last)
+
         prev = m.screenStack.Peek()
         if prev <> invalid
             prev.visible = true
@@ -27,3 +27,7 @@ sub CloseScreen(node as Object)
         end if
     end if
 end sub
+
+function GetCurrentScreen()
+    return m.screenStack.Peek()
+end function

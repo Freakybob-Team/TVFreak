@@ -4,10 +4,9 @@ sub Init()
 end sub
 
 sub GetContent()
-    ' request the content feed from the API
     xfer = CreateObject("roURLTransfer")
     xfer.SetCertificatesFile("common:/certs/ca-bundle.crt")
-    xfer.SetURL("https://jonathanbduval.com/roku/feeds/roku-developers-feed-v1.json")
+    xfer.SetURL("https://freakybob-team.github.io/TVFreak/Feeds/roku-channel-feed.json") ' set feed here
     rsp = xfer.GetToString()
     rootChildren = []
     rows = {}
@@ -50,6 +49,8 @@ function GetItemData(video as Object) as Object
     item.id = video.id
     if video.content <> invalid
         item.length = video.content.duration
+        item.url = video.content.videos[0].url
+        item.streamFormat = video.content.videos[0].videoType
     end if
     return item
 end function
