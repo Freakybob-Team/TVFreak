@@ -1,15 +1,22 @@
-sub main()
+
+sub Main()
+    showChannelSGScreen()
+end sub
+  
+sub showChannelSGScreen()
     screen = CreateObject("roSGScreen")
-    port = CreateObject("roMessagePort")
-    screen.SetMessagePort(port)
-
-    scene = screen.CreateScene("HomeScreen")
-    screen.Show()
-
-    while true
-        msg = wait(0, port)
-        if type(msg) = "roSGScreenEvent" and msg.isScreenClosed()
-            exit while
+    m.port = CreateObject("roMessagePort")
+    screen.setMessagePort(m.port)
+    scene = screen.CreateScene("MainScene")
+    screen.show()
+  
+    ' main loop
+    while(true)
+        msg = wait(0, m.port)
+        msgType = type(msg)
+  
+        if msgType = "roSGScreenEvent"
+            if msg.isScreenClosed() then return
         end if
-    end while
+    end while  
 end sub
