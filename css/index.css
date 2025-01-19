@@ -1,0 +1,156 @@
+/* mpax235 was here cooking on this */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #171717FF; /* set the background color */ 
+}
+
+.topbar {
+    width: 100%;
+    background-color: #000000FF;
+    height: 85.44px;
+
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 40.32px;
+    transition: 0.2s ease-in-out;
+}
+
+.middlebar {
+    background-color: #434343FF;
+    height: 7.68px;
+    width: 100%;
+}
+
+.topbarbutton {
+    margin-left: 10px;
+    background-color: transparent;
+    border-style: none;
+    color: #ffffff;
+    font-size: 21px;
+    transition: 0.2s ease-in-out;
+    padding: 25px;
+}
+
+.topbarbutton:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+#first-button {
+    padding-left: 40px;
+}
+
+#contentthumbnail {
+    width: 200px;
+    height: 112.32px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 10px;
+    display: flex;
+    height: auto;
+}
+
+.content-container {
+    padding: 10px;
+    background-color: #434343ff;
+    transition: 0.2s ease-in-out;
+    width: 200px;
+    word-wrap: break-word;
+}
+
+#contenttitle {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+    transition: 0.2s ease-in-out;
+    display: inline;
+}
+
+#contentdescription {
+    color: #ababab;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s ease-in-out;
+    display: inline;
+}
+
+.contents {
+    display: flex;
+    padding: 35px;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content-container:hover {
+    transform: scale(1.05);
+    background-color: #fff;
+
+    #contenttitle {
+        color: #000000;
+    }
+
+    #contentdescription {
+        color: #000000;
+    }
+}
+
+video {
+    width: 600px;
+}
+
+.videocontainer {
+    display: flex;
+    padding: 35px;
+}
+
+#contenttitlevideo {
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.videoinfo {
+    padding-left: 10px;
+    width: 100%;
+}
+
+#contentdescriptionvideo {
+    color: #ababab;
+    font-family: Arial, sans-serif;
+}
+
+#topbar {
+    border: 0;
+    width: 100%;
+    height: 93.12px;
+}
+
+#feedname {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.contentfeed {
+    display: flex;
+}
+
+#feedname {
+    font-weight: 400;
+}
+
+#feedname {
+    display: inline;
+}
+
+#logo:hover {
+    transform: scale(1.05);
+}
