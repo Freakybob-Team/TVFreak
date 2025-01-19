@@ -154,3 +154,7 @@ video {
 #logo:hover {
     transform: scale(1.05);
 }
+
+#contenttitlevideo, #contentdescriptionvideo {
+    display: inline;
+}
