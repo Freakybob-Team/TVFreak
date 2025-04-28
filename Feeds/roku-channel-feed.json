@@ -29,6 +29,62 @@
                 "language": "en-us",
                 "dateAdded": "2024-01-03T10:23:10Z"
             }
+        },
+        {
+            "longDescription": "The second cutscene from MurderBob.",
+            "thumbnail": "https://freakyflix.freakybob.site/thumbnails/murderbob/cutscene2.png",
+            "releaseDate": "2024-11-10",
+            "genres": [
+                "cutscene"
+            ],
+            "tags": [
+                "cutscene",
+                "freakybob",
+                "projectm"
+            ],
+            "id": "cutscene2murderbob",
+            "shortDescription": "The second cutscene from MurderBob.",
+            "title": "Cutscene 2 from MurderBob",
+            "content": {
+                "duration": 36,
+                "videos": [
+                    {
+                        "videoType": "MP4",
+                        "url": "https://freakyflix.freakybob.site/movies/murderbob/cutscenes-edited/cutscene2.mp4",
+                        "quality": "HD"
+                    }
+                ],
+                "language": "en-us",
+                "dateAdded": "2024-01-03T10:23:10Z"
+            }
+        },
+        {
+            "longDescription": "The third cutscene from MurderBob.",
+            "thumbnail": "https://freakyflix.freakybob.site/thumbnails/murderbob/cutscene3.png",
+            "releaseDate": "2024-11-10",
+            "genres": [
+                "cutscene"
+            ],
+            "tags": [
+                "cutscene",
+                "freakybob",
+                "projectm"
+            ],
+            "id": "cutscene3murderbob",
+            "shortDescription": "The third cutscene from MurderBob.",
+            "title": "Cutscene 3 from MurderBob",
+            "content": {
+                "duration": 43,
+                "videos": [
+                    {
+                        "videoType": "MP4",
+                        "url": "https://freakyflix.freakybob.site/movies/murderbob/cutscenes-edited/cutscene3.mp4",
+                        "quality": "HD"
+                    }
+                ],
+                "language": "en-us",
+                "dateAdded": "2024-01-03T10:23:10Z"
+            }
         }
     ],
     "Videos": [

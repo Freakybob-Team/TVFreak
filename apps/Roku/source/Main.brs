@@ -1,4 +1,3 @@
-
 sub Main()
     showChannelSGScreen()
 end sub

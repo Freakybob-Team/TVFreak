@@ -1,7 +1,6 @@
-
 function ContentListToSimpleNode(contentList as Object, nodeType = "ContentNode" as String) as Object
     result = CreateObject("roSGNode", nodeType)
-    if result <> invali
+    if result <> invalid
         for each itemAA in contentList
             item = CreateObject("roSGNode", nodeType)
             item.SetFields(itemAA)
