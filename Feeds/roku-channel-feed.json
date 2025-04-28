@@ -89,6 +89,60 @@
     ],
     "Videos": [
         {
+            "longDescription": "https://freakybob-team.github.io/ie6.freakybob.site/",
+            "thumbnail": "https://videos.freakybob.site/thumbnails/ie6.jpg",
+            "releaseDate": "2024-10-11",
+            "genres": [
+                "tours"
+            ],
+            "tags": [
+                "tours",
+                "freakybob"
+            ],
+            "id": "freakytube1",
+            "shortDescription": "https://freakybob-team.github.io/ie6.freakybob.site/",
+            "title": "Freakybob.site WORKING on IE11!",
+            "content": {
+                "duration": 44,
+                "videos": [
+                    {
+                        "videoType": "MP4",
+                        "url": "https://videos.freakybob.site/videos/ie6.mp4",
+                        "quality": "HD"
+                    }
+                ],
+                "language": "en-us",
+                "dateAdded": "2024-01-03T11:16:00Z"
+            }
+        },
+        {
+            "longDescription": "https://freakybob.site/",
+            "thumbnail": "https://videos.freakybob.site/thumbnails/mobile.jpg",
+            "releaseDate": "2024-10-11",
+            "genres": [
+                "tours"
+            ],
+            "tags": [
+                "tours",
+                "freakybob"
+            ],
+            "id": "freakytube2",
+            "shortDescription": "https://freakybob.site/",
+            "title": "Freakybob.site Mobile UI",
+            "content": {
+                "duration": 67,
+                "videos": [
+                    {
+                        "videoType": "MP4",
+                        "url": "https://videos.freakybob.site/videos/mobile.mp4",
+                        "quality": "HD"
+                    }
+                ],
+                "language": "en-us",
+                "dateAdded": "2024-01-03T11:16:00Z"
+            }
+        },
+        {
             "longDescription": "Want to play Freakybob Clicker? Go to https://scratch.mit.edu/projects/1059751585/!",
             "thumbnail": "https://videos.freakybob.site/thumbnails/clicker.jpg",
             "releaseDate": "2024-10-11",
