@@ -10,6 +10,7 @@
     <interface>
         <field id="errorMessage" type="string" />
         <field id="issueMessage" type="string" />
+        <field id="tvfreakHome" type="node" />
     </interface>
     <children>
         <Rectangle
@@ -22,7 +23,7 @@
             width="1920"
             height="7.68"
             color="0x434343FF"
-            translation="[0,85.44]" />
+            translation="[0, 85.44]" />
 
         <Poster
             id="logo"
@@ -30,6 +31,42 @@
             width="232.32"
             height="85.44"
             translation="[40.32, 0]" />
+
+        <Button
+            id="tvfreakHome"
+            text="Home"
+            height="60"
+            translation="[-300, 13.44]"
+            iconUri=""
+            focusable="true"
+            focusBitmapUri="pkg:/images/blank.png"
+            focusedIconUri="pkg:/images/blank.png"
+            textColor="0xCACACAFF"
+            focusedTextColor="0xFFFFFFFF" />
+
+        <Button
+            id="tvfreakTV"
+            text="TV"
+            height="60"
+            translation="[-150, 13.44]"
+            iconUri=""
+            focusable="true"
+            focusBitmapUri="pkg:/images/blank.png"
+            focusedIconUri="pkg:/images/blank.png"
+            textColor="0xCACACAFF"
+            focusedTextColor="0xFFFFFFFF" />
+
+        <Button
+            id="tvfreakMovies"
+            text="Movies"
+            height="60"
+            translation="[-30, 13.44]"
+            iconUri=""
+            focusable="true"
+            focusBitmapUri="pkg:/images/blank.png"
+            focusedIconUri="pkg:/images/blank.png"
+            textColor="0xCACACAFF"
+            focusedTextColor="0xFFFFFFFF" />
 
         <Label
             id="loadingIndicator"

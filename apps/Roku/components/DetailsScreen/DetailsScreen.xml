@@ -47,7 +47,7 @@
             <Group>
                 <LabelList
                     id="buttons"
-                    numRows="3"
+                    numRows="4"
                     itemSpacing="[0,10]"
                     itemSize="[593, 48]"
                 />
@@ -62,7 +62,7 @@
                     />
                     <Label
                         id="releaseLabel"
-                        wrap="false"
+                        wrap="true"
                         width="520"
                     />
                     <Label

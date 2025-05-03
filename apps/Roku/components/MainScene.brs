@@ -1,5 +1,7 @@
 
 sub Init()
+    m.tvfreakHome = m.top.FindNode("tvfreakHome")
+    m.top.tvfreakHome = m.tvfreakHome
     m.top.backgroundColor = "0x662D91"
     m.top.backgroundUri= "pkg:/images/background.jpg"
     m.loadingIndicator = m.top.FindNode("loadingIndicator")

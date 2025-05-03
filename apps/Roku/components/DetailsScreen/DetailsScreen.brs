@@ -27,10 +27,10 @@ end sub
 sub SetDetailsContent(content as Object)
     m.description.text = content.description
     m.poster.uri = content.hdPosterUrl
-    m.timeLabel.text = GetTime(content.length)
+    m.timeLabel.text = "Duration: " + GetTime(content.length)
     m.titleLabel.text = content.title
-    m.releaseLabel.text = content.releaseDate
-    m.uploadedLabel.text = content.uploadedLabel
+    m.releaseLabel.text = "Released on: " + content.releaseDate
+    m.uploadedLabel.text = "Uploaded on: " + content.uploadedDate
 end sub
 
 sub OnJumpToItem() ' invoked when jumpToItem field is populated

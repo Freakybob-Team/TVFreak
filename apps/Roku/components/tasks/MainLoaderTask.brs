@@ -6,7 +6,7 @@ end sub
 
 sub GetContent()
     try
-        feed = "https://freakybob-team.github.io/TVFreak/Feeds/roku-channel-feed.json"
+        feed = "https://freakybob-team.github.io/TVFreak/feeds/roku-channel-feed.json"
         print "Loading feed:", feed
         xfer = CreateObject("roURLTransfer")
         xfer.SetCertificatesFile("common:/certs/ca-bundle.crt")
@@ -61,6 +61,7 @@ function GetItemData(video as Object) as Object
     item.hdPosterURL = video.thumbnail
     item.title = video.title
     item.releaseDate = video.releaseDate
+    item.uploadedDate = video.uploadedDate
     item.id = video.id
     if video.content <> invalid
         item.length = video.content.duration
