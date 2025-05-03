@@ -3,6 +3,12 @@ sub Main()
 end sub
   
 sub showChannelSGScreen()
+    print("")
+    print("----------------------------------------------")
+    print("TVFreak+ App for Roku systems")
+    print("Made by the Freakybob-Team and mpax235!")
+    print("----------------------------------------------")
+    print("")
     screen = CreateObject("roSGScreen")
     m.port = CreateObject("roMessagePort")
     screen.setMessagePort(m.port)

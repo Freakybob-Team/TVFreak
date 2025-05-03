@@ -7,6 +7,10 @@
     <script type="text/brightscript" uri="UILogic/GridScreenLogic.brs" />
     <script type="text/brightscript" uri="UILogic/VideoPlayerLogic.brs" />
     <script type="text/brightscript" uri="UILogic/DetailsScreenLogic.brs" />
+    <interface>
+        <field id="errorMessage" type="string" />
+        <field id="issueMessage" type="string" />
+    </interface>
     <children>
         <Rectangle
             id="topBar"
@@ -33,6 +37,32 @@
             width="1280"
             height="720"
             translation="[0, 0]"
+            horizAlign="center"
+            vertAlign="center"
+            visible="false"
+            font="font:MediumBoldSystemFont"
+        />
+
+        <Label
+            id="errorMessageLabel"
+            text="An error has occurred: Error"
+            width="1280"
+            height="690"
+            color="#ff0000"
+            translation="[0, 0]"
+            horizAlign="center"
+            vertAlign="center"
+            visible="false"
+            font="font:MediumBoldSystemFont"
+        />
+
+        <Label
+            id="issueMessageLabel"
+            text="If this issue keeps happening, please report this to Freakybob-Team or mpax235"
+            width="1280"
+            height="690"
+            color="#ff0000"
+            translation="[0, 30]"
             horizAlign="center"
             vertAlign="center"
             visible="false"

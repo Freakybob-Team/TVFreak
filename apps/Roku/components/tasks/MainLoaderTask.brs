@@ -1,12 +1,27 @@
 
 sub Init()
     m.top.functionName = "GetContent"
+    m.scene = m.top.getScene()
 end sub
 
 sub GetContent()
-    xfer = CreateObject("roURLTransfer")
-    xfer.SetCertificatesFile("common:/certs/ca-bundle.crt")
-    xfer.SetURL("https://freakybob-team.github.io/TVFreak/Feeds/roku-channel-feed.json") ' set feed here
+    try
+        feed = "https://freakybob-team.github.io/TVFreak/Feeds/roku-channel-feed.json"
+        print "Loading feed:", feed
+        xfer = CreateObject("roURLTransfer")
+        xfer.SetCertificatesFile("common:/certs/ca-bundle.crt")
+        xfer.SetURL(feed) ' set feed here
+        print "Successfully loaded the feed!"
+    catch e
+        print "Error:",e.message
+        print "Failed to load feed! Exiting the app."
+        m.scene.errorMessage = "An error has occurred: " + e.message
+        m.scene.issueMessage = "If this issue keeps happening, please report this to Freakybob-Team or mpax235."
+        'm.loadingIndicator.visible = true
+        'm.errorMessage.visible = true
+        return
+    end try
+
     rsp = xfer.GetToString()
     rootChildren = []
     rows = {}

@@ -1,7 +1,35 @@
 {
     "providerName": "TVFreak+ Feed",
     "language": "en-US",
-    "Clips": [
+    "Twitch Clips": [
+        {
+            "longDescription": "no",
+            "thumbnail": "https://static-cdn.jtvnw.net/twitch-clips-thumbnails-prod/IntelligentEnjoyableSoybeanFailFish-JBn3BCcObEXBcyWY/b17ac689-c8fa-4b92-a214-d5bc4568418e/preview.jpg",
+            "releaseDate": "2025-01-18",
+            "genres": [
+                "clips"
+            ],
+            "tags": [
+                "freakybobtwitch"
+            ],
+            "id": "freakybobteamtwitchclip1",
+            "shortDescription": "no",
+            "title": "no",
+            "content": {
+                "duration": 26,
+                "videos": [
+                    {
+                        "videoType": "MP4",
+                        "url": "https://freakybob-team.github.io/TVFreak/twitchclips/no.mp4",
+                        "quality": "HD"
+                    }
+                ],
+                "language": "en-us",
+                "dateAdded": "2024-01-03T10:23:10Z"
+            }
+        }
+    ],
+    "FreakyFlix Clips": [
         {
             "longDescription": "The first cutscene from MurderBob.",
             "thumbnail": "https://freakyflix.freakybob.site/thumbnails/murderbob/cutscene1.png",
