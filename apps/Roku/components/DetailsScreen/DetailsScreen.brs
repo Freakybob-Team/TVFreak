@@ -8,6 +8,7 @@ function Init()
     m.timeLabel = m.top.FindNode("timeLabel")
     m.titleLabel = m.top.FindNode("titleLabel")
     m.releaseLabel = m.top.FindNode("releaseLabel")
+    m.uploadedLabel = m.top.FindNode("uploadedLabel")
     
     result = []
     for each button in ["Play"] 
@@ -29,6 +30,7 @@ sub SetDetailsContent(content as Object)
     m.timeLabel.text = GetTime(content.length)
     m.titleLabel.text = content.title
     m.releaseLabel.text = content.releaseDate
+    m.uploadedLabel.text = content.uploadedLabel
 end sub
 
 sub OnJumpToItem() ' invoked when jumpToItem field is populated

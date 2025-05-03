@@ -65,6 +65,11 @@
                         wrap="false"
                         width="520"
                     />
+                    <Label
+                        id="uploadedLabel"
+                        wrap="false"
+                        width="520"
+                    />
                 </LayoutGroup>
             </Group>
         </LayoutGroup>
