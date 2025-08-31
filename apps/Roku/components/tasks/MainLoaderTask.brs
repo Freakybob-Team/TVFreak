@@ -6,7 +6,7 @@ end sub
 
 sub GetContent()
     try
-        feed = "https://freakybob-team.github.io/TVFreak/feeds/roku-channel-feed.json"
+        feed = "https://tvfreak.freakybob.site/Feeds/roku-channel-feed.json"
         print "Loading feed:", feed
         xfer = CreateObject("roURLTransfer")
         xfer.SetCertificatesFile("common:/certs/ca-bundle.crt")

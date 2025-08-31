@@ -24,7 +24,7 @@
         <RowList
             itemComponentName="RowListItemComponent"
             id="rowList"
-            translation="[30,290]"
+            translation="[20,290]"
             numRows="2"
             rowitemSize="[[320,180]]"
             rowItemSpacing="[[20,0]]"

@@ -11,16 +11,18 @@
         <field id="errorMessage" type="string" />
         <field id="issueMessage" type="string" />
         <field id="tvfreakHome" type="node" />
+        <field id="tvfreakTV" type="node" />
+        <field id="tvfreakMovies" type="node" />
     </interface>
     <children>
         <Rectangle
             id="topBar"
-            width="1920"
+            width="1280"
             height="85.44"
             color="0x000000FF" />
         <Rectangle
             id="middleBar"
-            width="1920"
+            width="1280"
             height="7.68"
             color="0x434343FF"
             translation="[0, 85.44]" />
@@ -36,8 +38,8 @@
             id="tvfreakHome"
             text="Home"
             height="60"
-            translation="[-300, 13.44]"
-            iconUri=""
+            translation="[180, 17.28]"
+            iconUri="pkg:/images/blank.png"
             focusable="true"
             focusBitmapUri="pkg:/images/blank.png"
             focusedIconUri="pkg:/images/blank.png"
@@ -48,8 +50,8 @@
             id="tvfreakTV"
             text="TV"
             height="60"
-            translation="[-150, 13.44]"
-            iconUri=""
+            translation="[270, 17.28]"
+            iconUri="pkg:/images/blank.png"
             focusable="true"
             focusBitmapUri="pkg:/images/blank.png"
             focusedIconUri="pkg:/images/blank.png"
@@ -60,8 +62,8 @@
             id="tvfreakMovies"
             text="Movies"
             height="60"
-            translation="[-30, 13.44]"
-            iconUri=""
+            translation="[410, 17.28]"
+            iconUri="pkg:/images/blank.png"
             focusable="true"
             focusBitmapUri="pkg:/images/blank.png"
             focusedIconUri="pkg:/images/blank.png"

@@ -1,7 +1,6 @@
-
 ##   Channel Details
 title=TVFreak+
-sg_version=1
+rsg_version=1.2
 major_version=1
 minor_version=0
 build_version=00001
@@ -20,4 +19,4 @@ splash_screen_hd=pkg:/images/splash-screen_hd.png
 splash_screen_sd=pkg:/images/splash-screen_sd.png
 
 splash_color=#000000
-splash_min_time=1
+splash_rsg_optimization=1
